@@ -1,0 +1,39 @@
+# options for Quarto book
+# https://quarto.org/docs/reference/projects/books.html
+# 
+# Options for html
+# https://quarto.org/docs/reference/projects/websites.html#section
+
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "write your project title here"
+  author: ["student 1 first and last name", "student 2 first and last name", "student 3 first and last name", "student 4 first and last name"]
+  date: today
+  date-format: full
+  reader-mode: true
+  
+  chapters:
+    - index.qmd
+    - report.qmd
+  
+  appendices:
+  - proposal.qmd
+  - sketch.qmd
+
+
+format:
+  html:
+    theme: #bootswatch themes.  For other options check out https://bootswatch.com/
+      light: flatly
+      dark: darkly
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-line-numbers: true
+    code-tools: true
+
+
+

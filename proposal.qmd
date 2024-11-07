@@ -1,0 +1,3 @@
+# Proposal {.unnumbered}
+
+Write your proposal in this file.
